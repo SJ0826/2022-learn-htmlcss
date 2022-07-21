@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+ul{ 
+    display: flex;
+    padding: 0;
+    list-style-type: none; 
+    
+    flex-direction: row; /*플렉스의 진행방향이 가로축이다.*/
+    /*flex-direction: row-reverse;플렉스의 진행방향이 가로축 반대방향이다.*/
+    /*flex-direction: column;플렉스의 진행방향이 세로축이다.*/
+    /*flex-direction: column-reverse;플렉스의 진행방향이 세로축 반대방향이다.*/
+
+    /*flex-wrap: nowrap;기본값: 반드시 한줄로 배치된다.*/
+    /*flex-wrap: wrap;플렉스 컨테이너의 영역이 좁아짐에 따라 플렉스 아이템이 새로운 행으로 형성된다.*/
+    /*flex-wrap: wrap-reverse; 역순으로 wrap이 된다.*/
+
+    /*flex-flow: row-reverse wrap;flex-flow: wrap속성을 한번에 여러개 지정할 수 있는 단축 속성*/
+}
