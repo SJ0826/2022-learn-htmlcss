@@ -17,10 +17,11 @@ ul{
     
     align-items: stretch;/*기본값, 아이템들이 교차축에 스트레치되어 크기가 늘어남.*/
     align-items: flex-start;/*stretch가 되지 않고 교차축의 앞쪽에 배치됨*/
-    align-items: flex-end;/*교차축의 끝점으로부터 시작점을 향해 배치*/
+    ㄴalign-items: flex-end;/*교차축의 끝점으로부터 시작점을 향해 배치*/
     align-items: center;/* 교차축의 중심부에 배치*/
 
-    align-content: space-around ;
+    align-content: space-around ;/*행이 여러개가 되었을 때 요소들이 동일한 여백을 가지게 됨.*/
+    align-content: space-between;/*양쪽 여백이 사라진 상태에서 요소들이 동일한 여백을 가지게 됨.*/
 
 }
 
