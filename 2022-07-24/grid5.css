@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    border: 5px solid teal;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border: 5px solid tomato;
+    border-radius: 8px;
+}
+
+.container{
+    display: grid;
+    height: 500px;
+
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+
+    align-content: start;/*기본값*/
+    align-content: end;/*컨테이너 전체의 공간 밑에 붙는다.*/
+    align-content: space-around;/*각각의 아이템이 진행방향으로의 여백을 동일하게 가진다.*/
+    align-content: space-between;/*컨테이너의 위, 아래에 붙인 상태의 여백이 동일하다.*/
+    align-content: space-evenly;/*모든 여백이 똑같다.*/
+
+    justify-content: center;/* 행의 가운데에 정렬한다.*/
+    justify-content: space-between;/*컨테이너의 왼쪽, 오른쪽에 붙인 상태의 여백이 동일하다.*/
+}
