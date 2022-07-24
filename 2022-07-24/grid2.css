@@ -26,11 +26,11 @@ li{
     height: 500px;
     /*
     minmax(최고실이, 최대길이)
-    auto-fill
-    auto-fit
+    auto-fill: 컨테이너의 여백을 남긴다.
+    auto-fit: 컨테이너의 여백을 채워준다.
     */
     /*repeat: 반복해서 크기를 지정한다.*/
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto));/*2개의 열을 최솟값은 100px, 최댓값은 자동으로 만든다.*/
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));/*컨테이너의 여백없이 그리드 아이템의 크기의 최솟값은 100px, 최댓값은 자동으로 만든다.*/
     
     gap: 10px;
 
