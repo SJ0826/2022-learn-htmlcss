@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    border: 5px solid teal;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border: 5px solid tomato;
+    border-radius: 8px;
+}
+
+.container{
+    display: grid;
+    height: 500px;
+
+    grid-template-columns: 100px 1fr;/*열크기&개수를 지정한다.(fr: 남아있는 공간에서 비율로 나눈다.)*/
+    grid-template-rows: 200px 1fr 1fr;/*행 크기&개수를 지정한다.*/
+
+    /*gap: 그리드 아이템 사이의 간격 크기를 지정한다.*/
+    gap: 20px 10px;/*행사이의 간격은 20px, 열사이의 간격은 10px*/
+
+
+
+}
