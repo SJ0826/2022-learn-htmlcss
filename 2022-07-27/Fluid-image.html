@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>가변 이미지</title>
+    <style>
+        div{
+            width: 50%;/* body의 50%로 크기지정*/
+        }
+        img{
+            
+            max-width: 640px; /*이미지 최대크기 지정*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <picture>
+            <source srcset="jake2.jpg" media="(min-width: 800px)"><!--800px보다 이미지가 커지면 jake2이미지를 보여준다.-->
+            <img src="jake..jpg">
+        </picture>
+    </div>
+</body>
+</html>
