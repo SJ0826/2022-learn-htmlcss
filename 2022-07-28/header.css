@@ -42,7 +42,7 @@
 }
 
 .header__input--text{
-    width: calc(100%-60px);/*속한 영역에서 버튼크기 만큼만 제외*/
+    width: calc(100%-60px);/*속한 영역에서  버튼크기 만큼만 제외*/
     height: 40px;
     padding: 0 6px;
     border: 1px solid #8f8f8f;
