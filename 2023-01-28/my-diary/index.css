@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-weight: 600;
+  padding: 30px;
+}
+
+.wrapper__head {
+  border-bottom: 3px solid lightgray;
+}
+
+.wrapper__head__title {
+  background-color: orange;
+  color: white;
+  text-align: center;
+}
+
+.wrapper__head__sub-title #point {
+  font-size: 24px;
+  color: orange;
+  text-decoration: underline;
+}
+
+.wrapper__body {
+  margin-top: 30px;
+  padding: 24px;
+  border: solid 3px lightgray;
+}
+
+.wrapper__body__title {
+  font-size: 21px;
+  color: white;
+  background-color: lightgray;
+}
+
+.wrapper__body__content #point {
+  color: green;
+}
+
+.wrapper__body__footer {
+  color: gray;
+  text-align: right;
+}
